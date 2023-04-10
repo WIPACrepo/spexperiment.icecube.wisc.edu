@@ -1,0 +1,694 @@
+/* This file will hold styles that are loaded using the same media query as the normal grid. */
+
+/*------------------------------------*\
+	NAVIGATION CSS
+\*------------------------------------*/
+/* Mobile menu */
+#block-om-maximenu-om-maximenu-1 {
+  display: none;
+}
+.block-menu-block-1 {
+  display: block;
+}
+.region-menu .block-nice-menus {
+  padding-top: 30px;
+  display: block;
+}
+.region-menu ul.nice-menu {
+  text-align: right;
+}
+
+.block-system-main-menu ul.menu li a:hover,
+.block-system-main-menu ul.menu li a.active,
+.menu-level-1 ul.menu li a:hover,
+.menu-level-1 ul.menu li a.active,
+.menu-level-1 ul.menu li a.active-trail,
+ul#main-menu li a:hover,
+ul#main-menu li a.active:hover,
+ul#main-menu li a.active,
+.region-menu ul.menu li a:hover,
+.region-menu ul.menu li a.active:hover,
+.region-menu ul.menu li a.active,
+.region-menu ul.menu li.active-trail a {
+  padding: 7px 20px;
+  margin: 0 -20px;
+}
+
+/*------------------------------------*\
+	PORTFOLIO CSS
+\*------------------------------------*/
+/* List Portfolio */
+.view-list-portfolio .views-row {
+  float: left;
+  clear: none;
+  margin: 0px;
+}
+.view-list-portfolio .views-row-inner {
+  margin: 10px;
+}
+
+
+/* List Portfolio 1 column */
+.list-portfolio-1-column .views-row {
+  width: 100%;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-field-portfolio-images {
+  width: auto;
+  margin-right: 20px;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-title {
+  padding: 0 50px;
+}
+.view-list-portfolio.list-portfolio-1-column .views-field-title-gallery {
+  padding: 0px;
+  text-transform: uppercase;
+  font-size: 120%;
+}
+
+/* List Portfolio 1 column */
+.list-portfolio-1-column-meetings .views-row {
+  width: 100%;
+}
+.view-list-portfolio.list-portfolio-1-column-meetings .views-field-field-portfolio-images {
+  width: 460px;
+  margin-right: 10px;
+}
+.view-list-portfolio.list-portfolio-1-column-meetings .views-field-title {
+  padding: 0 50px;
+}
+
+.view-list-portfolio.list-portfolio-1-column-meetings .views-field-created {
+  padding: 0 50px;
+}
+.view-list-portfolio.list-portfolio-1-column-meetings .views-field-field-body-preview {
+  padding: 0 50px;
+}
+/* List Portfolio 1 column sidebar */
+.view-list-portfolio.list-portfolio-1-column.view-list-portfolio-sidebar .views-field-field-portfolio-images {
+  width: 280px;
+}
+
+/* List Portfolio 2 column */
+.list-portfolio-2-column .views-row {
+  width: 50%;
+}
+.list-portfolio-2-column .views-row-3,
+.list-portfolio-2-column .views-row-5,
+.list-portfolio-2-column .views-row-7,
+.list-portfolio-2-column .views-row-9,
+.list-portfolio-2-column .views-row-11,
+.list-portfolio-2-column .views-row-13,
+.list-portfolio-2-column .views-row-15 {
+  clear: left;
+}
+
+/* List Portfolio 3 column */
+.list-portfolio-3-column .views-row {
+  width: 33%;
+}
+.list-portfolio-3-column .views-row-4,
+.list-portfolio-3-column .views-row-7,
+.list-portfolio-3-column .views-row-10,
+.list-portfolio-3-column .views-row-13,
+.list-portfolio-3-column .views-row-16,
+.list-portfolio-3-column .views-row-19,
+.list-portfolio-3-column .views-row-21 {
+  clear: left;
+}
+
+/* List Portfolio 4 column */
+.list-portfolio-4-column .views-row {
+  width: 25%;
+}
+.list-portfolio-4-column .views-row-5,
+.list-portfolio-4-column .views-row-9,
+.list-portfolio-4-column .views-row-13,
+.list-portfolio-4-column .views-row-17,
+.list-portfolio-4-column .views-row-21 {
+  clear: left;
+}
+
+
+/* Portfolio detail */
+.node-portfolio .field-name-field-portfolio-images {
+  margin-right: 20px;
+}
+.node-portfolio .field-name-field-portfolio-images,
+.node-portfolio .field-name-field-portfolio-images img,
+.node-portfolio .field-name-field-portfolio-images .field-slideshow-slide,
+.node-portfolio .field-name-field-portfolio-images .field-slideshow-slide img {
+  width: 580px !important;
+}
+.field-group-accordion {
+  width: 300px;
+}
+
+/* Latest Portfolio */
+.block-latest-portfolio .jcarousel-skin-default .jcarousel-container-horizontal {
+  width: 1050px;
+  padding: 10px 60px;
+}
+.block-latest-portfolio .jcarousel-skin-default .jcarousel-clip-horizontal {
+  width: 1050px;
+}
+.block-latest-portfolio .jcarousel-skin-default .jcarousel-item {
+  width: 170px;
+  margin: 0 10px;
+  padding: 10px;
+}
+.block-latest-portfolio .views-row {
+  float: left;
+  margin: 10px;
+  width: 218px;
+}
+.block-latest-portfolio .views-row-first {
+  margin-left: 0;
+}
+.block-latest-portfolio .views-row-last {
+  margin-right: 0;
+}
+
+/* Block recent work */
+.block-recent-works .jcarousel-item {
+  width: 220px;
+}
+
+/* Block Recent Portfolio on sidebar */
+.block-recent-portfolio-sidebar .views-row {
+  width: 33%;
+  margin: 0;
+  clear: none;
+}
+.block-recent-portfolio-sidebar .views-row-inner {
+  margin: 6px;
+}
+.block-recent-portfolio-sidebar .views-row-1,
+.block-recent-portfolio-sidebar .views-row-4,
+.block-recent-portfolio-sidebar .views-row-7 {
+  clear: left;
+}
+.block-recent-portfolio-sidebar .views-row-inner .views-field-field-portfolio-images,
+.block-recent-portfolio-sidebar .views-row-inner .views-field-field-portfolio-images img {
+  width: 100%;
+  height: auto;
+}
+
+
+/*------------------------------------*\
+	NEWS CSS
+\*------------------------------------*/
+/* List Article */
+.view-list-articles .views-field-title a {
+  font-size: 180%;
+}
+/* List Article Full Width Style */
+.view-list-articles.list-article-full-width .views-row .views-field-field-image,
+.view-list-articles.list-article-full-width .views-row .views-field-field-image img {
+  width: 100%;
+}
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-full-width .views-row .views-field-field-embedded-media iframe {
+  height: 600px;
+}
+
+/* List Article Medium Style */
+.view-list-articles.list-article-medium .views-row .views-field-field-image,
+.view-list-articles.list-article-medium .views-row .views-field-field-image img,
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  /*width: 220px;*/
+  float: left;
+ /* margin-right: 20px;*/
+}
+.view-list-articles.list-article-medium .views-row .views-field-field-embedded-media iframe {
+  height: 157px;
+}
+
+/* List Article Printerest */
+.list-article-printerest .view-content.masonry {
+  margin-left: 35px;
+}
+
+/* List Article Calendar */
+.list-article-calendar .views-field-title,
+.list-article-calendar .views-field-body,
+.list-article-calendar .views-field-name {
+  margin-left: 100px;
+}
+
+.view-list-articles.list-article-calendar .views-row .views-field-field-embedded-media,
+.view-list-articles.list-article-calendar .views-row .views-field-field-embedded-media iframe {
+  height: 400px;
+}
+.view-list-articles.list-article-calendar .views-field-created {
+  width: 80px;
+}
+
+/* Latest News */
+.block-latest-news .views-slideshow-controls-top {
+  width: 700px;
+  margin-right: 10px;
+}
+.block-latest-news .views-slideshow-controls-top .views-slideshow-pager-field-item {
+  width: 120px;
+}
+.block-latest-news .views_slideshow_cycle_main {
+  width: 230px;
+}
+
+/* Related News */
+.block-related-news .views-slideshow-controls-top {
+  width: 450px;
+  margin-right: 10px;
+}
+.block-related-news .views-slideshow-controls-top .views-slideshow-pager-field-item {
+  width: 130px;
+}
+.block-related-news .views_slideshow_cycle_main {
+  width: 240px;
+}
+
+/* Block latest form blog */
+.block-latest-from-blog .views-row {
+  width: 25%;
+}
+.block-latest-from-blog .views-row-3,
+.block-latest-from-blog .views-row-5 {
+  clear: none;
+}
+.block-latest-from-blog .views-row-inner {
+  margin: 10px;
+}
+.block-latest-from-blog .views-field-field-image,
+.block-latest-from-blog .views-field-field-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Recent News */
+.block-recent-news .views-row .views-field-field-image,
+.block-recent-news .views-row .views-field-field-image img,
+.block-recent-news .views-row .views-field-field-embedded-media
+.block-recent-news .views-row .views-field-field-embedded-media img {
+  width: 60px;
+}
+
+/* Recent comment */
+.block-comments-recent-block .views-field-field-image,
+.block-comments-recent-block .views-field-field-image img {
+  width: 60px;
+}
+
+/* Article detail */
+article.node-article .field-name-field-image,
+article.node-article .field-slideshow-slide,
+article.node-article .field-slideshow-slide img,
+article.node-article .field-name-field-image img {
+  width: 100% !important;
+}
+
+article.node-article .field-name-field-embedded-media iframe {
+  height: 450px;
+}
+
+/*------------------------------------*\
+	PHOTOS PAGE CSS
+\*------------------------------------*/
+.view-list-photos .views-row {
+  float: left;
+  width: 218px;
+  clear: none;
+  margin: 0px;
+}
+.view-list-photos .views-row-1,
+.view-list-photos .views-row-5,
+.view-list-photos .views-row-9,
+.view-list-photos .views-row-13 {
+  clear: left;
+  margin-left: 0;
+}
+.view-list-photos .views-row-4,
+.view-list-photos .views-row-8,
+.view-list-photos .views-row-12,
+.view-list-photos .views-row-16 {
+  margin-right: 0
+}
+.view-list-photos .views-row .views-field-field-photo-image,
+.view-list-photos .views-row .views-field-field-photo-image img {
+  width: 100%;
+  height: auto;
+}
+
+/* Block Photos */
+.block-photos .views-row {
+  width: 60px;
+  margin: 10px 0 10px 20px;
+  clear: none;
+}
+.block-photos .views-row-1,
+.block-photos .views-row-4,
+.block-photos .views-row-7 {
+  clear: none;
+  margin-left: 0;
+}
+.block-photos .views-row .views-field-field-photo-image,
+.block-photos .views-row .views-field-field-photo-image img {
+  width: 100%;
+  height: auto;
+}
+
+/*------------------------------------*\
+	ABOUT US CSS
+\*------------------------------------*/
+.node-about-us .field-name-field-image {
+  float: left;
+  margin-right: 20px;
+  width: 340px;
+}
+.node-about-us .field-name-field-image .field-slideshow,
+.node-about-us .field-name-field-image .field-slideshow-slide,
+.node-about-us .field-name-field-image img {
+  width: 340px !important;
+}
+
+.block-block-about-us-block .field-name-field-image {
+  float: right;
+  margin: 0 0 0 20px;
+}
+.block-block-about-us-block .field-name-field-image,
+.block-block-about-us-block .field-name-field-image .field-slideshow,
+.block-block-about-us-block .field-name-field-image .field-slideshow-slide,
+.block-block-about-us-block .field-name-field-image img {
+  width: 400px !important;
+}
+
+/*------------------------------------*\
+	TEAM CSS
+\*------------------------------------*/
+.view-list-members .views-row {
+  display:none;
+  float: left;
+  clear: none;
+  width: 200px;
+  margin: 10px 10px 30px 10px;
+}
+.view-list-members .views-row-1,
+.view-list-members .views-row-4,
+.view-list-members .views-row-7,
+.view-list-members .views-row-10,
+.view-list-members .views-row-13,
+.view-list-members .views-row-16 {
+ /* margin-left: 0;*
+ /* clear: left;*/
+}
+.view-list-members .views-row-3,
+.view-list-members .views-row-6,
+.view-list-members .views-row-9,
+.view-list-members .views-row-12,
+.view-list-members .views-row-15,
+.view-list-members .views-row-18 {
+/*  margin-right: 0;*/
+}
+
+.view-list-members .views-field-field-member-image-new-size .field-more-link div {
+  margin: 80px 5px;
+}
+
+.view-list-members .views-field-field-member-image-new-size .field-more-link div,
+.view-list-members .views-field-field-member-image-new-size .field-more-link  a {
+  width: 48px;
+  /*height: 12px;
+  line-height:auto;*/
+}
+.view-list-members .views-field-field-member-image-new-size,
+.view-list-members .views-field-field-member-image-new-size img {
+  width: 200px;
+  height: 224px;
+}
+
+.view-list-members .views-field-field-member-image-new-size img.title {
+    display:none;
+  
+}
+.view-list-members .views-field-field-member-image-new-size img:hover {
+ /* opacity: 0.7;*/
+}
+
+/*.view-list-members .views-field-field-member-image-new-size .field-more-link {
+  opacity:1;
+}
+
+.view-list-members .views-field-field-member-image-new-size .field-image:after {
+    content:'\A';
+    position:absolute;
+    width:100%; height:100%;
+    top:0; left:0;
+    background: rgba(0,0,0,0.2);
+    opacity:0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.view-list-members .views-field-field-member-image-new-size .field-image:hover:after {
+    opacity:1;
+}*/
+
+/* Block our team */
+.block-our-team .view-list-members .views-row {
+  float: left;
+  clear: none;
+  width: 220px;
+  margin: 10px 10px 30px 10px;
+}
+.block-our-team .view-list-members .views-row-1,
+.block-our-team .view-list-members .views-row-5,
+.block-our-team .view-list-members .views-row-9,
+.block-our-team .view-list-members .views-row-13 {
+  margin-left: 0;
+  clear: left;
+}
+.block-our-team .view-list-members .views-row-4,
+.block-our-team .view-list-members .views-row-8,
+.block-our-team .view-list-members .views-row-12 {
+  margin-right: 0;
+}
+
+.block-our-team .view-list-members .views-field-field-member-image-new-size .field-more-link div {
+  margin: 50px 5px;
+}
+.block-our-team .view-list-members .views-field-field-member-image-new-size,
+.block-our-team .view-list-members .views-field-field-member-image-new-size img {
+  width: 100%;
+  height: auto;
+}
+
+/* Member detail */
+article.node-team-member .field-name-field-member-image {
+  width: 340px;
+}
+
+/*------------------------------------*\
+	COMMENT CSS
+\*------------------------------------*/
+#edit-field-comment-user-name,
+#edit-field-comment-user-email,
+#edit-field-comment-website {
+  float: left;
+  width: 220px;
+  margin-right: 20px;
+}
+#edit-field-comment-website {
+  margin-right: 0;
+}
+
+/*------------------------------------*\
+	PRICING CSS
+\*------------------------------------*/
+article.node .full-boxed-pricing ul {
+  width: 186px;
+}
+.sep-boxed-pricing ul li {
+  width: 283px;
+}
+
+.full-boxed-pricing .column {
+  border-right: none;
+  width: auto;
+}
+.full-boxed-pricing .column.column-recommend {
+  border-right: 1px solid #ccc;
+}
+.sep-boxed-pricing .column {
+  width: auto;
+  margin-left: 15px;
+}
+.sep-boxed-pricing .column:first-child {
+  margin-left: 0;
+}
+.sep-boxed-pricing .column.column-middle {
+  margin-top: 0;
+}
+.sep-boxed-pricing ul li {
+  width: 283px;
+}
+
+/*------------------------------------*\
+	BLOCK CSS
+\*------------------------------------*/
+.block {
+  margin-bottom: 30px;
+}
+
+/* Header */
+.branding-data {
+  text-align: left;
+}
+#breadcrumb {
+  float: right;
+  padding: 0 10px;
+}
+h1.title {
+  font-size: 160%;
+  width: 70%;
+}
+h2.block-title {
+  font-size: 140%;
+}
+
+/* Block contact top */
+.block.block-contact-top .content {
+  text-align: left;
+}
+
+/* Block Social icons */
+.block-social-icons .content {
+  text-align: right;
+}
+
+/* Block Our services */
+.our-services {
+  margin: 10px;
+  width: 293px;
+  float: left;
+}
+
+.our-services-1 {
+  float: left;
+  width: 215px;
+  margin: 0 10px;
+}
+
+.our-services-2 {
+  float: right;
+  margin-left: 20px;
+  width: 460px;
+}
+
+
+/* Block Testimonials */
+.block-testimonials .views-row {
+  float: left;
+  position: relative;
+  width: 193px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding-left: 100px;
+}
+.block-testimonials .views-row-1,
+.block-testimonials .views-row-4,
+.block-testimonials .views-row-7 {
+  clear: left;
+  margin-right: 0;
+}
+.block-testimonials .views-row .views-field-field-image {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+.block-testimonials .views-row .views-field-field-image img {
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  width: 80px;
+}
+
+/* Block happy clients */
+.block-happy-clients .views-row {
+  float: left;
+  clear: left;
+  position: relative;
+  padding-left: 100px;
+  width: auto;
+}
+.block-happy-clients .views-row .views-field-field-image {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  float: left;
+  margin-right: 20px;
+  width: 80px;
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+}
+.block-happy-clients .views-row .views-field-field-image img {
+  border-radius: 40px;
+  -moz-border-radius: 40px;
+  -webkit-border-radius: 40px;
+  width: 80px;
+}
+
+/* Block Promotion */
+.block-promotion-box .block-inner .promotion-title {
+  font-size: 200%;
+}
+
+.block-promotion-box .block-inner .promotion-button a {
+  float: right;
+  width: auto;
+  padding: 20px;
+}
+.block-promotion-box .block-inner .promotion-button,
+.block-promotion-box .block-inner .promotion-button a {
+  float: right;
+  width: auto;
+}
+
+/*------------------------------------*\
+	OTHER STYLE CSS
+\*------------------------------------*/
+.one_half, .one_third, .two_third, .three_fourth, .one_fourth {
+    float: left;
+    margin-bottom: 20px;
+	padding: 0;
+	margin-bottom: 0;
+    margin-right: 4%;
+    position: relative;
+}
+.one_half.last, .one_third.last, .two_third.last, .three_fourth.last, .one_fourth.last {
+  margin-right: 0;
+}
+.one_half {
+  width: 48%;
+}
+.one_third h2 {
+  height:40px;
+}
+
+.one_third {
+  width: 29.3333%;
+ /* height:400px*/
+}
+.two_third {
+  width: 65.3332%;
+}
+.one_fourth {
+  width: 21%;
+}
+.three_fourth {
+  width: 74%;
+}
